@@ -18,6 +18,7 @@ export const App = () => {
   const [weatherData, setWeatherData] = useState();
   const [unitSystem, setUnitSystem] = useState("metric");
 
+  
   useEffect(() => {
     const getData = async () => {
       const res = await fetch("api/data", {
