@@ -14,6 +14,7 @@ export const getVisibility = (unitSystem, visibilityInMeters) =>
     : kmToMiles(visibilityInMeters / 1000);
 
 
+
 export const getTime = (unitSystem, currentTime, timezone) =>
   unitSystem == "metric"
     ? unixToLocalTime(currentTime, timezone)
