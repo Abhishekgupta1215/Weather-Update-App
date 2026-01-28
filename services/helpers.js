@@ -5,7 +5,6 @@ import {
   timeTo12HourFormat,
 } from "./converters";
 
-
 export const getWindSpeed = (unitSystem, windInMps) =>
   unitSystem == "metric" ? windInMps : mpsToMph(windInMps);
 
